@@ -1,15 +1,18 @@
 .header{
-display:flex;
+display:inline-flex;
 font-family: Verdana;
 font-size: 14px;
 font-weight: bold;
-
 }
+
 nav{
   display:inline-block;
-  color: black;
+
 }
 h3{
-  color: MediumAquamarine;
-  display:inline;
+  color:mediumaquamarine;
+  display: inline;
+}
+a{
+  color: black;
 }
