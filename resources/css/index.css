@@ -29,7 +29,7 @@ a{
 .container{
   display: inline-flex;
   width: 100%;
-  height:600px;
+  height:1000px;
   justify-content: space-around;
 }
 div{
@@ -51,38 +51,44 @@ div{
   flex-direction: column;
 }
 .column1 .section1{
-  height: 20px;
+  height: 50px;
+  background-image: url("./resources/images/img-story-main.png");
 }
 .column1 .section2{
-  height: 100px
+  height: 250px
 }
 .column1 .section3{
-  height: 80px;
+  height: 190px;
 }
 .column1 .section4{
-  height: 20px;
+  height: 50px;
 }
 .column1 .section5{
-  height: 70px;
+  height: 190px;
 }
 .column1 .section6{
-  height: 20px;
+  height: 50px;
 }
 .column2 .section1{
-  height: 200px;
+  height: 380px;
 }
 .column2 .section2{
-  height: 20px;
+  height: 50px;
 }
 .column2 .section3{
-  height: 100px;
+  height: 280px;
 }
 .column3 .section1{
-  height: 150px;
+  height: 240px;
 }
 .column3 .section2{
-  height: 150px;
+  height: 240px;
 }
 .column3 .section3{
-  height: 170px;
+  height: 300px;
+}
+p {
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
 }
