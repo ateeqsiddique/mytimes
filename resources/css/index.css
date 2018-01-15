@@ -37,8 +37,10 @@ div{
 }
 .column1{
   width:630px;
-  display: flex;
-  flex-direction: column;
+  display:inline-flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
 }
 .column2{
   width: 300px;
@@ -60,21 +62,31 @@ div{
 }
 .column1 .section3{
   height: 190px;
+  width: 300px;
 }
 .column1 .section4{
-  height: 50px;
+  height: 300px;
+  background-image: url("../images/img-story-2.png");
+  display: flex;
+  width:300px
 }
 .column1 .section5{
   height: 190px;
+  width: 300px;
 }
 .column1 .section6{
-  height: 50px;
+  height: 300px;
+  display: flex;
+  background-image: url("../images/img-story-3.png");
+  width: 300px;
 }
 .column2 .section1{
   height: 380px;
 }
 .column2 .section2{
-  height: 50px;
+  height: 300px;
+  display: flex;
+  background-image: url("../images/img-story-1.png");
 }
 .column2 .section3{
   height: 280px;
@@ -92,4 +104,16 @@ p {
   font-family: Georgia;
   font-size: 17px;
   color: black;
+}
+h3{
+  font-family: Georgia;
+    font-weight: bold;
+    font-size: 40px;
+    color: white;
+}
+.imagetext{
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
 }
