@@ -8,12 +8,18 @@ display:inline-flex;
 font-family: Verdana;
 font-size: 14px;
 font-weight: bold;
+position: fixed;
+z-index: 5;
+background-color: White;
+
 }
 
 nav{
   display:inline-block;
   padding-left: 150px;
   padding-top: 50px;
+
+
 
 }
 h4{
@@ -22,18 +28,24 @@ h4{
   padding-left: 10px;
   padding-top: 30px;
   margin-right: 800px;
+
 }
 a{
   color: black;
+  display: inline-block;
+
+
 }
 .container{
   display: inline-flex;
   width: 100%;
   height:1000px;
   justify-content: space-around;
+  position: relative;
+  top: 150px;
 }
 div{
-  border: 2px solid black;
+  /* border: 2px solid black; */
 }
 .column1{
   width:630px;
@@ -116,4 +128,47 @@ h3{
   font-weight: bold;
   font-size: 30px;
   color: white;
+}
+#bites{
+  font-size: 16px;
+  font-weight: bold;
+}
+ span{
+display: block;
+  background-color: WhiteSmoke;
+ font-family: Verdana;
+ font-size: 12px;
+ color: DimGray;
+ margin: 0;
+ border-top: 1px solid black;
+ border-bottom: 1px solid black;
+ padding: 11px 20px;
+}
+
+.footer{
+  display:inline-flex;
+
+  flex-flow: row;
+  justify-content: center;
+  align-content: center;
+  background-color: MediumAquamarine;
+  margin:0 auto;
+  font-family: Verdana;
+  font-size: 12px;
+  width: 100%;
+  height:200px;
+  padding-top: 100px;
+  position: relative;
+  top: 150px;
+
+}
+h6{
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  display:inline;
+}
+ .footer nav{
+  display: inline-block;
 }
